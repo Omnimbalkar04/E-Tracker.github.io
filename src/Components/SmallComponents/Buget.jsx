@@ -34,7 +34,7 @@ const Buget = () => {
       setLoading(false);
       resetForm();
       alert("Your monthly buget is set");
-      navigate("/");
+      navigate("/E-Tracker.github.io/");
     }, 2000);
   };
 
@@ -54,7 +54,7 @@ const Buget = () => {
         }}
       >
         <Tooltip>
-          <Link to="/" sx={{ cursor: "pointer" }}>
+          <Link to="/E-Tracker.github.io/" sx={{ cursor: "pointer" }}>
             <MdOutlineKeyboardBackspace
               style={{
                 color: "#00e558",
@@ -74,7 +74,7 @@ const Buget = () => {
         </Typography>
 
         <Tooltip>
-          <Link to="/" sx={{ cursor: "pointer" }}>
+          <Link to="/E-Tracker.github.io/" sx={{ cursor: "pointer" }}>
             <IoIosNotifications
               style={{
                 color: "#00e558",

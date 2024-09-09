@@ -25,7 +25,7 @@ function App() {
      <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Dashboard />} />
+        <Route path="/E-Tracker.github.io/" element={<Dashboard />} />
         <Route path="/expense" element={<ExpenseList />} />
         <Route path="/add-expense" element={<AddExpense />} />
         <Route path="/profile" element={<Profile />} />

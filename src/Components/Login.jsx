@@ -42,7 +42,7 @@ const Login = () => {
       setLoading(false);
       resetForm();
       alert("Login Details is submitted");
-      navigate("/");
+      navigate("/E-Tracker.github.io/");
     }, 2000);
   };
 

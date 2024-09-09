@@ -186,7 +186,7 @@ const Dashboard = () => {
             }}
           >
             <MuiTooltip title="Notifications">
-              <Link to="/" sx={{ cursor: "pointer" }}>
+              <Link to="/E-Tracker.github.io/" sx={{ cursor: "pointer" }}>
                 <IoIosNotifications
                   style={{
                     color: "#00e558",

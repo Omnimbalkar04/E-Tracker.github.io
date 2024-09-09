@@ -33,7 +33,7 @@ const Header = () => {
           <Bars onClick={toggleSidebar}/>
           <NavMenu>
             <Tooltip title="Dashboard">
-              <NavLink to="/">Dashboard</NavLink>
+              <NavLink to="/E-Tracker.github.io/">Dashboard</NavLink>
             </Tooltip>
             <Tooltip title="Expense">
               <NavLink to="/expense">Expense</NavLink>

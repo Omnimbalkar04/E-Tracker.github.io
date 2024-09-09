@@ -19,7 +19,7 @@ const Profile = () => {
   };
 
   const todash = () => {
-    navigate("/");
+    navigate("/E-Tracker.github.io/");
   }
 
   const toAdd = () => {
@@ -95,7 +95,7 @@ const Profile = () => {
         }}
       >
         <MuiTooltip title="Back">
-          <Link to="/" sx={{ cursor: "pointer" }}>
+          <Link to="/E-Tracker.github.io/" sx={{ cursor: "pointer" }}>
             <MdOutlineKeyboardBackspace
               style={{
                 color: "#00e558",
@@ -115,7 +115,7 @@ const Profile = () => {
         </Typography>
 
         <MuiTooltip title="Notification">
-          <Link to="/" sx={{ cursor: "pointer" }}>
+          <Link to="/E-Tracker.github.io/" sx={{ cursor: "pointer" }}>
             <IoIosNotifications
               style={{
                 color: "#00e558",

@@ -15,7 +15,7 @@ const Footer = () => {
       <BottomNavWrapper>
         <BottomNavStyled>
           <Tooltip title="Home">
-            <NavLink to="/">
+            <NavLink to="/E-Tracker.github.io/">
               <Box
                 sx={{
                   display: "flex",

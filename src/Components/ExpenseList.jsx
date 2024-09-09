@@ -51,7 +51,7 @@ const ExpenseList = () => {
       sx={{ display:"flex", justifyContent:"space-between", mt:"5px", padding:"10px 20px",}} 
       >
         <MuiTooltip title="Back">
-          <Link to="/" sx={{ cursor:"pointer"}}>
+          <Link to="/E-Tracker.github.io/" sx={{ cursor:"pointer"}}>
           <MdOutlineKeyboardBackspace 
             style={{ color:"#00e558", fontSize:"35px",boxShadow: "0 4px 10px rgba(0, 0, 0, 1)",
               borderRadius: "10px",backgroundColor: "rgb(42, 40, 40)",
@@ -65,7 +65,7 @@ const ExpenseList = () => {
         >Your Expense</Typography>
 
         <MuiTooltip title="Notification">
-          <Link to="/" sx={{ cursor:"pointer"}}>
+          <Link to="/E-Tracker.github.io/" sx={{ cursor:"pointer"}}>
           <IoIosNotifications 
            style={{ color:"#00e558", fontSize:"30px",boxShadow: "0 4px 10px rgba(0, 0, 0, 1)",
             borderRadius: "10px",backgroundColor: "rgb(42, 40, 40)"}} 
